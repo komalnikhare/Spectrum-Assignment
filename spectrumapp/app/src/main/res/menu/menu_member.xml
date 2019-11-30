@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/all_member"
+        android:title=""
+        android:actionLayout="@layout/menu_item"
+        app:showAsAction="ifRoom"></item>
+
+    <item
+        android:id="@+id/sort_switch"
+        android:title="Sort by border"
+        android:icon="@drawable/ic_sort"
+        app:showAsAction="always"></item>
+</menu>
